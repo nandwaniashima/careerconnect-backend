@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: "https://careerconnect-frontend-79af.vercel.app/",
+    origin: "https://careerconnect-frontend-dxv1.vercel.app/",
     credentials: true,
 };
 
