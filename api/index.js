@@ -113,7 +113,4 @@ app.get("/fetch-pdf", (req, res) => {
 
 
 
-server.listen(PORT, () => {
-    connectDB();
-    console.log(`Server running at port ${PORT}`);
-});
+export default app;
